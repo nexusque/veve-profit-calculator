@@ -1,0 +1,19 @@
+@media (min-width:920px) {
+    .calculator-container {
+        max-width: 900px;
+    }
+}
+
+@media (max-width:1444px) {
+    html { font-size: 1.8em; }
+}
+
+@media (min-width:1444px) and (max-width:1920px) {
+    html { font-size: 1.5em; }
+}
+
+@media screen and (min-width: 1920px) {
+    .calculator-container {
+        max-width: 700px;
+    } 
+}
